@@ -9,6 +9,7 @@ The following files solve the GEP problem for three scenarios of wind and solar 
 * **Stochastic-GEP-Multistage.gms**: Multi-Stage Stochastic Generation Expansion Planning
 * **ARO-GEP.gms**: Two-Stage Adaptive Robust Optimization (ARO)-Generation Expansion Planning (GEP)
 * **WCS-GEP.gms**: Worst Case Scenario -Generation Expansion Planning (GEP)
+* **Bilevel-Centralized-GEPM.gms**: The Bilevel formulation Deterministic Single-Node Static Generation Expansion Planning Model (GEPM)
 
 The models are developed in [GAMS](https://www.gams.com/) and solved with [CPLEX](https://www.ibm.com/analytics/cplex-optimizer), but you could use any other solver (e.g., [GUROBI](https://www.gurobi.com/), [Cbc](https://github.com/coin-or/Cbc)).
 
